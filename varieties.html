@@ -1,0 +1,230 @@
+<html>
+<head>
+<title>PETsMART</title>
+<style>
+.m
+{
+position:absolute;
+left:35%;
+}
+.me
+{
+position:absolute;
+left:5%;
+top:85%;
+}
+.mee
+{
+position:absolute;
+left:68%;
+top:85%;
+}
+.meee
+{
+position:absolute;
+left:5%;
+top:155%;
+}
+.meeee
+{
+position:absolute;
+left:68%;
+top:155%;
+}
+.zoom
+{
+transition :transform 0.5s;
+}
+.zoom:hover
+{
+transform:scale(0.9   );
+}
+.links{
+border-radius:12px;
+}
+.links:hover
+{
+background-color:pink;
+}
+body{
+margin:0;
+padding:0;
+}
+.search-box{
+position:absolute;
+left:15%;
+top:47.99%;
+transform:translate(-50%,-50%);
+background:#2f3640;
+height:40px;
+border-radius:40px;
+padding:10px;
+}
+.search-box:hover>.search-txt{
+width:240px;
+padding:0 6px;}
+.search-box:hover> .search-btn{
+background:white;}
+.search-btn
+{
+color:#e84118;
+float:right;
+width:40px;
+height:40px;
+border-radius:50%;
+background:pink;
+display:flex;
+justify-content:center;
+align-items:center;
+transition:0.4s;
+}
+.search-txt{
+border:none;
+background:none;
+outline:none;
+float:left;
+padding:0;
+color:white;
+font-size:16px;
+transition:0.4s;
+line-height:40px;
+width:0px;
+
+}
+ul{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+ul li{
+float:right;
+width:200px;
+height:40px;
+background-color:black;
+opacity:.8;
+line-height:40px;
+text-align:center;
+font-size:20px;
+margin-right:2px;
+}
+ul li a{
+text-decoration:none;
+color:white;
+display:block;
+}
+ul li a:hover{
+background-color:pink;
+}
+ul li ul li
+{
+display:none;
+}
+ul li:hover ul li{
+display:block;
+}
+.ma{
+position:absolute;
+left:35%;
+top:130%;
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+ integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ </style>
+<body background="h.png"width="100%"height="100%">
+<table border="0" width="100%"height="10%">
+<tr>
+<td width="12.5%" align="center" bgcolor="black" class="links" ><a href="index.html"><font color="white">HOME</a></td>
+<td width="12.5%" align="center" bgcolor="black" class="links" > <a href="aboutus.html"><font color="white">ABOUT US</a></td>
+<td width="12.5%" align="center" bgcolor="black" class="links"><a href="contactus.html"><font color="white">CONTACT US</a></td>
+<td width="12.5%" align="center" bgcolor="black" class="links"><a href="varieties.html"><font color="white">VARIETIES</a></td>
+<td width="12.5%" align="center" bgcolor="black" class="links"><a href="feedback.html"><font color="white">FEEDBACK</a></td>
+<td width="12.5%" align="center" bgcolor="black" class="links"><a href="signin.html"><font color="white">SIGN IN</a></td>
+<td width="12.5%" align="center" bgcolor="black" class="links"><a href="login.html"><font color="white">LOGIN</a></td>
+</tr>
+</table>
+ <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+ <hr font color="black">
+ <br>
+   <i class="fa fa-bars" aria-hidden="true"></i> 
+  <font  width="12.5%" align="center" bgcolor="black" class="links" color="black" face="Above The Sky Scripts">
+ </font>  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+ <form><pre>
+ What are you looking for?<input type="text" name="petname"><br>
+ Category                 <input type="text"name="category"><br>
+ price                    <input type="number" name="price"placeholder="min">       <input type="number" name="price"placeholder="max"><br>
+ <font color="black" size="3%" face="Above The Sky Scripts">Type here and we will get back to you in 2 days:   <input type="submit" name="submit" value="submit"></font>
+</pre></form>
+ <hr font color="black">
+ <div class="search-box">
+ <input class="search-txt" type="text" name="" placeholder="Type to search">
+ <a class="search-btn" href="#">
+<i class="fas fa-search"></i></a></div>
+<ul>
+<li class="links"><a>Sort by</a>
+<ul>
+<li><a href="hightolow.html">price:high to low<a></li>
+<li><a href="lowtohigh.html">price:Low to high<a></li>
+<li><a href="bestsellers.html">price:Best sellers<a></li>
+<li><a href="newarrivals.html">New arrivals<a></li>
+<li><a href="toprated.html">Top rated<a></li>
+</ul>
+</li>
+<li class="links"><a>Filter</a>
+<ul>
+<li>
+<a href="distance.html">Distance</a></li>
+<li>
+<a href="availability.html">Availability</a>
+</li>
+<li>
+<a href="productrating.html">Product rating</a></li>
+<li>
+<a href="lifespan.html">Average lifespan</a></li></ul></li>
+ <form>
+ <br>
+ <br>
+ <br>
+ <hr font color="black">
+  <table border="0" width="100%">
+<tr>
+<td class="m"><img src="offers.jpg"class="zoom"height="55%"></td>
+<td class="ma"><img onclick="alert('$400 contact no:736595296')" src="lion f.jpg"class="zoom"height="55%" width="113%"></td>
+</tr>
+<tr>
+<td class="me"><img onclick="alert('$6500 contact no:741098566')" src="blk2.jpg"class="zoom"height="41%"width="50%"></td>
+<td class="mee"><img onclick="alert('$7000 contact no:95369766')" src="brown2.png"class="zoom"height="41%"></td>
+</tr>
+<tr>
+<td class="meee"><img onclick="alert('$7500 contact no:768287693')"src="white.jpg"class="zoom"height="41%" width="31%"></td>
+<td class="meeee"><img onclick="alert('$5900 contact no:736595296')" src="beagle.jpg"class="zoom"height="41%"width="71%"></td>
+</tr>
+</table>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+ <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+ <hr font color="black">
+</div>
+<pre>  <font size="5%">  <i class="fas fa-phone-square">    </i>  contact us:  8056026566</pre></font>
+<pre> 
+                                                                         <font size="10%"><a href="https://www.instagram.com/accounts/login/?hl=en"><i  class="fab fa-instagram"></i></a></font>   <font size="10%"><a href="https://en-gb.facebook.com/login/" ><i class="fab fa-facebook-square"></i></a></font>    <font size="10%"><a href="https://twitter.com/login?lang=en"><i class="fab fa-twitter-square"></i></a></font>    <font size="10%"><a href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a></font></pre>
+<p>Copyright © 2019 PetSmart Inc.</p>  
+<hr font color="black">
+<p class="headin"><font >
+
+Delivery may be delayed due to acts beyond our reasonable control, which may include, but are not limited to, weather, strikes, power outages, shutdowns, province or governmental actions, and other similar acts.
+
+5% Auto Ship - Sign up for Auto Ship and have products conveniently delivered to you at the frequency you choose! Save 5% on your initial order and 5% on recurring orders. Plus enjoy free shipping on orders over $49. Discounts will automatically apply at checkout once the customer has enrolled. Maximum value $150. Offer not valid on gift cards, gift certificates, previous purchases, or charitable donations and may not be valid on all merchandise. Offer may not be combined with other promotional offers or discounts. Terms and conditions of this offer are subject to change at the sole discretion of PetSmart.
+
+Treats™ members enjoy Free Standard Shipping on orders over $49. Members must sign in for discount to apply. Transaction total is prior to taxes & after discounts are applied. Due to size and/or weight, certain items bear a shipping surcharge or special handling fee, which will still apply. Savings will automatically reflect in shopping cart with the purchase of qualifying merchandise. Maximum value $75. Valid only on orders shipped within the contiguous 48 U.S. states, military APO/FPO addresses and select areas throughout Canada. Offer not valid on all or select products in the following categories: live pets; canned, fresh or frozen foods; select cat litters. Offer may not be combined with other promotional offers or discounts. Terms and conditions of this offer are subject to change at the sole discretion of PetSmart.
+
+Save 5% when you buy online and pick up in store. Offer valid online only. Transaction total is prior to taxes & after discounts are applied. Offer valid on select merchandise when choosing In-Store Pickup. Savings will automatically reflect in the shopping cart with the purchase of qualifying merchandise. Maximum value $150. Offer not valid on gift cards, gift certificates, previous purchases, charitable donations, veterinary diet, RX medications or vaccines and may exclude all or select items from the following brands: Advantage®, API®, AquaClear®, Aqueon®, AvoDerm®, Blue Buffalo®, CatMouse, Cesar®, Comfort Zone®, Chuckit!®, Dog MD™, Eukanuba®, Fluval®, FRONTLINE®, FURminator®, Greenies®, Great Choice®, High Tech Pet®, Hill’s® Ideal Balance™, IRIS, Hill’s® Science Diet®, Hill’s® Prescription Diet®, iFamCare™, Jackson Galaxy, JW Pets, K9 advantix®, KAYTEE®, KONG®, Kurgo®, Majestic Pet, Marineland®, MidWest Homes for Pets, Muse®, Natural Balance®, NATURE'S RECIPE®, Nature’s Variety®, NaturVet®, Nulo, Nutro™, Nutro™ Max®, Nutro™ Ultra™, Old Mother Hubbard, Omega™ One, Oxbow, Pedigree®, Pendleton, Pet Gear, Petmate, PetSafe®, Pioneer Pet, Precision Pet, PureBites®, Purina® Pro Plan®, Redbarn, Royal Canin®, Sentry®, Simple Solution, Solvit, Snoozer, Sunbeam®, Super Pet®, Temptations™, Tetra®, Thundershirt, Trixie Pet, Vittle Vault, Wellness®, World's Best Cat Litter, XPOWER, Zuke's®. Offer may not be combined with other promotional offers or discounts. Terms and conditions of this offer are subject to change at the sole discretion of PetSmart. Offer valid on PetSmart.com through February 3, 2019 @ 6:30 am EST..
+</font></p>
+<table border="3" width="100%" bgcolor="pink" height="10%">
+<tr>
+<td align="center"><font color="black">Designed by-Kiruthika.V</font></td></tr>
+</body>
+</html>
+</body>
+</html>

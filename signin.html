@@ -1,0 +1,168 @@
+<html>
+<head>
+<title>PETsMART</title>
+<style>
+.links{
+border-radius:10px;
+}
+.links:hover
+{
+background-color:pink;
+}
+body
+{
+margin:0;
+padding:0;
+background:url(no.jpg);
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+}
+.login-box{
+width:320px;
+height:500px;
+background:rgba(0,0,0,0.5);
+color:#fff;
+top:47.9%;
+left:20%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-sizing:border-box;
+padding:70px 30px;
+}
+h1{
+margin:0;
+position:absolute;
+left:28%;
+top:10%;
+padding:0 0 20px;
+font-size:22px;
+}
+login-box p{
+margin:0;
+position:absolute;
+top:25%;
+font-weight:bold;
+}
+.login-box input
+{
+width:100%;
+margin-bottom:3px;
+}
+.login-box input[type="text"],input[type="password"]
+{
+border:none;
+border-bottom:1px solid #fff;
+background:transparent;
+outline:none;
+height:18px;
+color:#fff;
+font-size:16px;
+}
+.login-box input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background:pink;
+color:#fff;
+font-size:18px;
+border-radius:20px;
+}
+.login-box input[type="submit"]:hover
+{
+cursor:pointer;
+background:pink;
+color:black;
+}
+.login-box a{
+text-decoration:none;
+font-size:14px;
+position:absolute;
+top:84%;
+color:pink;
+}
+.login-box a:hover{
+color:pink;
+}
+}
+</style>
+<script>
+
+function validate()
+{ 
+var fullname = document.getElementById("fullname").value;
+var email_id = document.getElementById("email_id").value; 
+var password = document.getElementById("password").value;
+var conpassword=document.getElementById("conpassword").value;
+if (fullname==null || fullname=="")
+{ 
+alert("Full Name can't be blank"); 
+return false; 
+}
+else if (email_id==null || email_id=="")
+{ 
+alert("Username can't be blank"); 
+return false; 
+}
+else if(password.length<=6)
+{ 
+alert("Password must be at least 6 characters long."); 
+return false; 
+} 
+else if (password!=conpassword)
+{ 
+alert("Confirm Password should match with the Password"); 
+return false; 
+} 
+ alert("signin successful "+fullname);
+ return true;
+} 
+</script> 
+</head>
+<body background="h.png"width="100%"height="100%">
+<table border="0" width="100%"height="10%">
+<tr>
+<td width="12.5%" align="center" bgcolor="black" class="links" ><a href="index.html"><font color="white">HOME</a></td>
+<td width="12.5%" align="center" bgcolor="black" class="links" > <a href="aboutus.html"><font color="white">ABOUT US</a></td>
+<td width="12.5%" align="center" bgcolor="black" class="links"><a href="contactus.html"><font color="white">CONTACT US</a></td>
+<td width="12.5%" align="center" bgcolor="black" class="links"><a href="varieties.html"><font color="white">VARIETIES</a></td>
+<td width="12.5%" align="center" bgcolor="black" class="links"><a href="feedback.html"><font color="white">FEEDBACK</a></td>
+<td width="12.5%" align="center" bgcolor="black" class="links"><a href="signin.html"><font color="white">SIGN IN</a></td>
+<td width="12.5%" align="center" bgcolor="black" class="links"><a href="login.html"><font color="white">LOGIN</a></td>
+</tr>
+</table>
+<img src="signinbg.jpeg" alt="Image not available"height="80%" width="100%">
+<div class="login-box"><br><br><br>
+<h1>Login here</h1>
+<form name="register"   method="post"  onsubmit="validate()"><!--action="configg.php"-->
+<p>Name</p>
+<input type="text" name="fullname" id="fullname" placeholder="Enter your name"><br>
+<p>EMAIL ID</p>
+<input type="text" name="email" id="email_id"placeholder="Enter email id"><br>
+<p>Password</p>
+<input type="password" name="password" id="password" placeholder="Enter password"><br><br>
+<p>Re enter Password</p>
+<input type="password" name="conpassword" id="conpassword"placeholder="Reenter password"><br><br>
+<input type="submit" value="Sign in" id="submit" ><br>
+</form>
+</img></div>
+<font size="5%">  contact us:  8056026566</font>
+<p>Copyright © 2019 PetSmart Inc.</p>  
+<hr font color="black">
+<p ><font >
+
+Delivery may be delayed due to acts beyond our reasonable control, which may include, but are not limited to, weather, strikes, power outages, shutdowns, province or governmental actions, and other similar acts.
+
+5% Auto Ship - Sign up for Auto Ship and have products conveniently delivered to you at the frequency you choose! Save 5% on your initial order and 5% on recurring orders. Plus enjoy free shipping on orders over $49. Discounts will automatically apply at checkout once the customer has enrolled. Maximum value $150. Offer not valid on gift cards, gift certificates, previous purchases, or charitable donations and may not be valid on all merchandise. Offer may not be combined with other promotional offers or discounts. Terms and conditions of this offer are subject to change at the sole discretion of PetSmart.
+
+Treats™ members enjoy Free Standard Shipping on orders over $49. Members must sign in for discount to apply. Transaction total is prior to taxes & after discounts are applied. Due to size and/or weight, certain items bear a shipping surcharge or special handling fee, which will still apply. Savings will automatically reflect in shopping cart with the purchase of qualifying merchandise. Maximum value $75. Valid only on orders shipped within the contiguous 48 U.S. states, military APO/FPO addresses and select areas throughout Canada. Offer not valid on all or select products in the following categories: live pets; canned, fresh or frozen foods; select cat litters. Offer may not be combined with other promotional offers or discounts. Terms and conditions of this offer are subject to change at the sole discretion of PetSmart.
+
+Save 5% when you buy online and pick up in store. Offer valid online only. Transaction total is prior to taxes & after discounts are applied. Offer valid on select merchandise when choosing In-Store Pickup. Savings will automatically reflect in the shopping cart with the purchase of qualifying merchandise. Maximum value $150. Offer not valid on gift cards, gift certificates, previous purchases, charitable donations, veterinary diet, RX medications or vaccines and may exclude all or select items from the following brands: Advantage®, API®, AquaClear®, Aqueon®, AvoDerm®, Blue Buffalo®, CatMouse, Cesar®, Comfort Zone®, Chuckit!®, Dog MD™, Eukanuba®, Fluval®, FRONTLINE®, FURminator®, Greenies®, Great Choice®, High Tech Pet®, Hill’s® Ideal Balance™, IRIS, Hill’s® Science Diet®, Hill’s® Prescription Diet®, iFamCare™, Jackson Galaxy, JW Pets, K9 advantix®, KAYTEE®, KONG®, Kurgo®, Majestic Pet, Marineland®, MidWest Homes for Pets, Muse®, Natural Balance®, NATURE'S RECIPE®, Nature’s Variety®, NaturVet®, Nulo, Nutro™, Nutro™ Max®, Nutro™ Ultra™, Old Mother Hubbard, Omega™ One, Oxbow, Pedigree®, Pendleton, Pet Gear, Petmate, PetSafe®, Pioneer Pet, Precision Pet, PureBites®, Purina® Pro Plan®, Redbarn, Royal Canin®, Sentry®, Simple Solution, Solvit, Snoozer, Sunbeam®, Super Pet®, Temptations™, Tetra®, Thundershirt, Trixie Pet, Vittle Vault, Wellness®, World's Best Cat Litter, XPOWER, Zuke's®. Offer may not be combined with other promotional offers or discounts. Terms and conditions of this offer are subject to change at the sole discretion of PetSmart. Offer valid on PetSmart.com through February 3, 2019 @ 6:30 am EST..
+</font></p>
+<table border="3" width="100%" bgcolor="pink" height="10%">
+<tr>
+<td align="center"><font color="black">Designed by-Kiruthika.V</font></td></tr>
+<br><br><br>
+</body>
+</html>
